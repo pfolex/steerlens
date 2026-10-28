@@ -1,0 +1,13 @@
+[package]
+name = "steerlens-core"
+version = "0.1.0"
+edition = "2021"
+description = "High-performance Top-K Sparse Autoencoder (SAE) and Contrastive Activation Addition (CAA) steering kernels"
+license = "Apache-2.0"
+
+[lib]
+name = "steerlens_core"
+path = "rust/src/lib.rs"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
